@@ -23,6 +23,12 @@ div {
 
 button {
     background-color: #3882f6;
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .header, .group-one, .group-two, .group-three, .group-four, .footer {
@@ -32,6 +38,9 @@ button {
 
 .content {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -58,5 +67,114 @@ button {
 
 .group-one {
     background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
+    gap: 20px;
+}
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.column-one-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.column-one-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.group-one img {
+    width: 500px;
+    background-color: #aaaaaa;
+}
+
+.group-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.group-two-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 100px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+}
+
+.group-three {
+    background-color: #e5e7eb;
+}
+
+.quote-block {
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-by {
+    font-weight: bold;
+    text-align: right;
+}
+
+.group-four {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.group-four-card {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 100px;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.group-four-header {
+    font-weight: bold;
+}
+
+.group-four button {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
