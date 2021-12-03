@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: "Arial", sans-serif;
+    gap: 0px;
 }
 
 a {
@@ -20,9 +21,17 @@ div {
     margin: 0px;
 }
 
+button {
+    background-color: #3882f6;
+}
+
 .header, .group-one, .group-two, .group-three, .group-four, .footer {
     padding-left: 200px;
     padding-right: 200px;
+}
+
+.content {
+    flex-grow: 1;
 }
 
 .header {
@@ -45,4 +54,9 @@ div {
 
 .header-links a {
     color: #E5E7EB;
+}
+
+.group-one {
+    background-color: #1F2937;
+    display: flex;
 }
